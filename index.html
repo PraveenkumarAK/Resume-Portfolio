@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3385193f9a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#internship">Internship</a></li>
+                    <li><a href="#mywork">My work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Development</p>
+                <h1>Hi, I'm <span>Praveenkumar</span><br> From Karur</h1>
+            </div>
+        </div>
+    </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user1.jpg" class="user">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>The only way to lead a consistent and happy life is through Learning and Implementing them in real life. Learning
+                    brings out an opportunity to explore and face new experiences. New experiences include both good and bad where it
+                    must be ensured to take good ones and tackle bad ones. With this enthusiasm in me I would assure to work with full
+                    dedication and promise to make maximum efforts to accomplish the tasks that are assigned to me.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('area of interest')">Area of interest</p>
+                        <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front End Developer</span><br>Designing and implementing user interfaces for websites or web applications</li>
+                            <li><span>Back End Developer</span><br>Handling server-side logic and database interactions for web applications</li>
+                            <li><span>Java Language</span><br>Proficient in Java programming, including object-oriented design and development</li> 
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Karpagam College of Engineering (2021-2025)</span><br>Computer Science and Engineering <br>CGPA : 7.55</li>
+                            <li><span>Cheran Matriculation Higher Secondary School, Karur (2020 - 2021) </span><br>HSC - Computer Science Group<br>Percentage - 74.29%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="area of interest">
+                        <ul>
+                            <li><span>Full Stack Development</span><br>Building both front-end and back-end components for web applications</li>
+                            <li><span>UI - UX Designing</span><br>Designing Web/App interfaces</li> 
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certificates">
+                        <ul>
+                            <li><span>Full Stack Development</span> - Boord</li>
+                            <li><span>Front end development</span> - Great Learing</li>
+                            <li><span>JavaScript</span> - HackerRank</li> 
+                            <li><span>HTML,CSS</span> - HackerRank</li>
+                            <li><span>HTML, CSS, Python(Basics), C, Java(Basics)</span> - Udemy</li>
+                            <li><span>Python(Basics)</span> - Infosys</li>
+                            <li><span>SQL(Basics)</span> - Skill Rack</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="internship">
+    <div class="container">
+        <h1 class="sub-title">Internship</h1>
+        <div class="internship-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>DGLITZ Tech</h2>
+                <p>Internship at DGLITZ Tech on Full Stack Development</p><br>
+                <p>Full Stack Development internship, delve into a comprehensive learning experience, honing skills in both frontend and backend technologies, while actively contributing to the development of versatile web applications</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code-merge"></i>
+                <h2>Genuine IT Solution</h2>
+                <p>Internship at Genuine IT Solution on Mobile App Development</p><br>
+                <p>Mobile App Development internship, you'll engage in hands-on learning, contributing to the creation of innovative mobile applications while gaining valuable insights into the dynamic world of technology</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mywork">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>College Event Management System</h3>
+                    <p>Developed and implemented a comprehensive college event
+                        management system using the MERN (MongoDB, Express.js,
+                        React.js, Node.js) stack to create a user-friendly platform for
+                        efficient event planning and execution. Utilized MongoDB for data
+                        storage, Express.js for backend API development, React.js for
+                        dynamic frontend views, and Node.js for server-side operations
+                        </p>
+                        <a href="https://college-event-management.onrender.com"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Donation Management</h3>
+                    <p>Designed and implemented a donation management system
+                        using HTML, CSS, and JavaScript. Developed an intuitive user
+                        interface for seamless donation tracking and management
+                        </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Rock-Paper-Scissors Game</h3>
+                    <p>A Simple program that lets you play Rock, Paper Scissors game
+                        with the computer. Saves High-Score data in file by implementing
+                        exception handling concepts
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> akpraveenkumar917@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9786000282</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/praveenkumar-a-k-b9ba79260/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_praveen._.ak__/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://github.com/PraveenkumarAK"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="name" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2024 Praveenkumar. Resume website</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var menu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        menu.style.right="0";
+    }
+    function closemenu(){
+        menu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby_YcELDaxfw-qfYgsvA-siKDNK5rQ_55ox37d7T6fTmO_23sM_pebNYvn9bzNNmtShKw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
